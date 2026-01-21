@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Marquee = ({ children, speed = 20 }) => {
+const Marquee = ({ children, speed = 5 }) => {
   const marqueeStyle = {
     animationDuration: `${speed}s`,
   };
