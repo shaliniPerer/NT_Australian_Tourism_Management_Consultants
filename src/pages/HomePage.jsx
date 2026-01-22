@@ -6,57 +6,49 @@ const offerings = [
 		icon: (
 			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 4v4l3 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
 		),
-		title: 'Personalized Consultations',
-		description: 'Receive one-on-one guidance tailored to your unique needs. Our experts listen, understand, and help you create a plan for personal growth and well-being. Every session is confidential and focused on your goals. Start your journey to a better you today.'
+		img: '/images/service2.jpeg',
+		title: 'Strategic Tourism Planning',
+		description: 'We help design tourism strategies and roadmaps that align stakeholder goals with market opportunities, focusing on long-term sustainability, resilience and visitor experience excellence.'
 	},
 	{
 		icon: (
 			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M16 3.13a4 4 0 010 7.75M8 3.13a4 4 0 000 7.75" strokeLinecap="round" strokeLinejoin="round"/></svg>
 		),
-		title: 'Group Workshops',
-		description: 'Join interactive workshops designed to foster community and learning. Share experiences, gain new perspectives, and develop practical skills in a supportive group setting. Our workshops cover a range of topics for all interests.'
+		img: '/images/service6.jpeg',
+		title: 'Destination Management & Activation',
+		description: 'Our destination management frameworks strengthen the performance of regions by integrating branding, product development, stakeholder engagement and infrastructure planning.'
 	},
 	{
 		icon: (
 			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 8c-1.1 0-2 .9-2 2v4a2 2 0 002 2c1.1 0 2-.9 2-2v-4a2 2 0 00-2-2zm0 0V6m0 8v2m6-6a6 6 0 11-12 0 6 6 0 0112 0z" strokeLinecap="round" strokeLinejoin="round"/></svg>
 		),
-		title: 'Wellness Programs',
-		description: 'Participate in holistic wellness programs that address mind, body, and spirit. Our programs include mindfulness, nutrition, and fitness guidance. Experience a comprehensive approach to health and happiness.'
+		img: '/images/service3.jpeg',
+		title: 'Market Research & Insights',
+		description: 'Robust data analysis and targeted research inform demand forecasting, market segmentation, competitor benchmarking and product positioning.'
 	},
 	{
 		icon: (
 			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" strokeLinecap="round" strokeLinejoin="round"/></svg>
 		),
-		title: 'Resource Library',
-		description: 'Access a curated library of articles, videos, and tools to support your growth. Our resources are available anytime, offering guidance and inspiration whenever you need it. Stay informed and empowered on your path.'
+		img: '/images/service4.jpeg',
+		title: 'Business Case Development & Feasibility Studies',
+		description: 'We prepare compelling, evidence-backed business cases and feasibility reports for new tourism products, experiences, events and infrastructure investments.'
 	},
 	{
 		icon: (
 			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4" strokeLinecap="round" strokeLinejoin="round"/></svg>
 		),
-		title: 'Progress Tracking',
-		description: 'Monitor your achievements and milestones with our easy-to-use tracking tools. Stay motivated and see your growth over time, making your journey more rewarding.'
+		img: '/images/service5.jpeg',
+		title: 'Governance, Policy & Compliance Support',
+		description: 'We assist organisations in building governance structures, compliance frameworks and operational processes that support sustainable growth and risk management.'
 	},
 	{
 		icon: (
 			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M16 3v4M8 3v4M3 9h18" strokeLinecap="round" strokeLinejoin="round"/></svg>
 		),
-		title: 'Event Calendar',
-		description: 'Never miss an important date. Our event calendar keeps you updated on upcoming workshops, sessions, and community events tailored to your interests.'
-	},
-	{
-		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 20l9-5-9-5-9 5 9 5z"/><path d="M12 12V4" strokeLinecap="round" strokeLinejoin="round"/></svg>
-		),
-		title: 'Expert Webinars',
-		description: 'Attend live webinars hosted by industry leaders. Gain valuable insights, ask questions, and connect with experts from the comfort of your home.'
-	},
-	{
-		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
-		),
-		title: '24/7 Support',
-		description: 'Get help whenever you need it. Our support team is available around the clock to answer your questions and provide assistance.'
+		img: '/images/service1.jpeg',
+		title: 'Capacity Building & Training',
+		description: 'Workshops and tailored training strengthen local capabilities in areas such as digital marketing, sustainability practices, stakeholder engagement and visitor servicing.'
 	},
 ];
 
@@ -67,24 +59,24 @@ const HomePage = () => {
 
 	const faqs = [
 		{
-			question: 'Where Can I Find Information?',
-			answer: 'Web sadipscing eimod tempod sed lorem dolor sit amet. Fellis tellus adipiscing dignissim eros peraatermque nisl. Duis Felis natoque feucibus pharetra vitae at, 2 zlorewnt rnasgis allex consectetur vulputate aulis augue sit optiam disatibus.',
+			question: 'What services do you provide?',
+			answer: 'We offer strategic tourism planning, destination management, market research, feasibility studies, governance support, and capacity-building workshops tailored for the Australian tourism industry.',
 		},
 		{
-			question: 'What Are Your Terms And Conditions?',
-			answer: 'Our terms and conditions outline the guidelines and rules for using our services. They cover important aspects such as privacy, user responsibilities, and service limitations. Please review them carefully before proceeding with our services.',
+			question: 'Who can benefit from your services?',
+			answer: 'Our clients include government agencies, regional tourism organisations, tourism operators, investors, Indigenous enterprises, and community-led tourism initiatives.',
 		},
 		{
-			question: 'Can I Buy Directly From The Factory?',
-			answer: 'Yes, you can purchase directly from us. We offer direct consultation services and therapy sessions. Contact us to learn more about our available packages and pricing options.',
+			question: 'How do you develop your strategies?',
+			answer: 'We follow a structured approach: diagnostic research, stakeholder engagement, strategic framework development, implementation guidance, and continuous review for improvement.',
 		},
 		{
-			question: 'What Kinds of Payment Do You Accept?',
-			answer: 'We accept various payment methods including credit cards, debit cards, bank transfers, and online payment platforms. We also offer flexible payment plans for our therapy packages.',
+			question: 'Do you focus on sustainability?',
+			answer: 'Yes, sustainability is a core focus of our work. We integrate sustainable practices and principles into all aspects of tourism planning and development to ensure long-term positive impacts on communities and the environment.',
 		},
 		{
-			question: 'When do I receive my order?',
-			answer: 'For our services, appointments are typically scheduled within 1-2 weeks of booking. For any physical products or materials, delivery times vary based on your location, usually within 5-7 business days.',
+			question: 'How can we get started with your consulting?',
+			answer: 'You can contact us directly via email or phone to schedule a consultation, after which we’ll assess your needs and propose a tailored advisory plan.',
 		},
 	];
 
@@ -100,15 +92,21 @@ const HomePage = () => {
 							</div>
 							<div>
 								<h1 className="text-[#2d4a3e] font-serif text-xl leading-none">
-									CUP <span className="italic font-light">of</span> TEA
+									NT <span className="italic font-light">Australian</span> Tourism
 								</h1>
 								<p className="text-[#2d4a3e]/60 text-[8px] uppercase tracking-[0.4em] mt-1">
-									Psychotherapy
+									Consultants
 								</p>
 							</div>
 						</div>
 
 						<div className="hidden md:flex items-center gap-8">
+							<a
+								href="#Home"
+								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
+							>
+								HOME
+							</a>
 							<a
 								href="#about"
 								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
@@ -116,20 +114,22 @@ const HomePage = () => {
 								About
 							</a>
 							<a
-								href="#blog"
+								href="#services"
 								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
 							>
-								Blog
+								Services
 							</a>
 							<a
-								href="#contact"
+								href="#reviews"
 								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
 							>
-								Contact
+								Reviews
 							</a>
-							<button className="bg-[#8fa49b] hover:bg-[#7d9289] text-white px-6 py-2.5 text-[10px] uppercase tracking-widest">
-								Book Session
-							</button>
+							<a href="#contact">
+								<button className="bg-[#8fa49b] hover:bg-[#7d9289] text-white px-6 py-2.5 text-[10px] uppercase tracking-widest">
+									Contact Us
+								</button>
+							</a>
 						</div>
 
 						<button
@@ -144,35 +144,49 @@ const HomePage = () => {
 				{isMenuOpen && (
 					<div className="md:hidden bg-white border-t p-4 space-y-3">
 						<a
-							href="#about"
-							className="block text-xs uppercase"
-						>
-							About
-						</a>
-						<a
-							href="#blog"
-							className="block text-xs uppercase"
-						>
-							Blog
-						</a>
-						<a
-							href="#contact"
-							className="block text-xs uppercase"
-						>
-							Contact
-						</a>
+								href="#Home"
+								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
+							>
+								HOME
+							</a>
+							<a
+								href="#about"
+								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
+							>
+								About
+							</a>
+							<a
+								href="#blog"
+								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
+							>
+								Services
+							</a>
+							<a
+								href="#contact"
+								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
+							>
+								Reviews
+							</a>
+							<a
+								href="#contact"
+								className="text-[#2d4a3e] text-[10px] uppercase tracking-widest"
+							>
+								Contact
+							</a>
 					</div>
 				)}
 			</nav>
 
 			{/* ================= HERO ================= */}
-			<section className="relative bg-[#f4f5f2] overflow-hidden min-h-[560px]">
-				{/* Background image — FLUSH LEFT */}
-				<div className="absolute inset-y-0 left-0 w-[460px] z-0">
+			<section
+			id='Home'
+			 className="relative bg-[#f4f5f2] overflow-hidden min-h-[560px]">
+				{/* Background image — with padding */}
+				<div className="absolute inset-y-0 left-0 w-[460px] z-0 pl-8 md:pl-12">
 					<img
 						src="/images/hero.png"
 						alt="Background"
-						className="w-full h-full object-cover"
+						className="w-full h-full object-cover opacity-25"
 					/>
 				</div>
 
@@ -182,10 +196,10 @@ const HomePage = () => {
 						{/* LEFT : Foreground image */}
 						<div className="relative hidden md:block h-full">
 							{/* HALF sticking out */}
-							<div className="absolute top-1/2 left-[100px] -translate-y-1/2 w-[380px]">
+							<div className="absolute top-1/2 left-[100px] -translate-y-1/2 w-[420px] ">
 								<div className="relative bg-white p-2 shadow-2xl">
 									<img
-										src="/images/hero-bg.png"
+										src="/images/one.jpeg"
 										alt="Tea moment"
 										className="w-full h-[240px] object-cover"
 									/>
@@ -195,18 +209,29 @@ const HomePage = () => {
 						</div>
 
 						{/* RIGHT : Text */}
-						<div className="py-20 md:py-24 text-center md:text-left md:pl-8">
-							<span className="block font-script text-4xl text-[#2d4a3e]/70 mb-2">
+						<div className="py-20 md:py-24 text-center md:text-left md:pl-8 relative flex flex-col md:items-start items-center justify-center h-full">
+							<span 
+								className="font-script text-4xl text-[#2d4a3e]/70 mb-2 md:text-6xl md:mb-0"
+								style={{
+								  position: 'absolute',
+								  top: '32%',
+								  left: '-10%',
+								  transform: 'translateY(-50%) rotate(-13deg)',
+								  zIndex: 10,
+								  whiteSpace: 'nowrap',
+								  pointerEvents: 'none',
+								}}
+							>
 								welcome
 							</span>
-
-							<h1 className="text-3xl md:text-[34px] font-serif text-[#2d4a3e] leading-snug mb-6 uppercase tracking-wide">
-								Nourish your mind, body, and soul with a cup of tea.
+							<h1 className="text-3xl md:text-[34px] font-serif text-[#2d4a3e] leading-snug mb-6 uppercase tracking-wide z-10">
+								NT Australian Tourism Management Consultants
 							</h1>
-
-							<button className="bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-								Book Your Therapy Session
+							<a href="#services" >
+							<button className="bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em] z-10">
+								Explore Our Services
 							</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -218,49 +243,77 @@ const HomePage = () => {
 				className="relative py-20 px-4 bg-gradient-to-b from-[#2d4a3e] via-[#3d7958] to-[#4c9970]"
 			>
 				<div className="max-w-3xl mx-auto text-center text-white">
+						<h2 className="font-script text-5xl text-white mb-4">
+							About Us
+						</h2>
 					<h2 className="text-2xl md:text-3xl font-serif mb-8 uppercase tracking-widest">
-						Are you feeling overwhelmed, stressed & anxious?
+						Local Insight, Strategic Expertise
 					</h2>
 
 					<div className="space-y-6 text-sm leading-relaxed mb-10">
 						<p>
-							Are you stuck in patterns that you just can't shift? Trying to improve
-							your
-							relationships? Do you feel held back in life like you are carrying a
-							heavy
-							backpack of old wounds & trauma?
+							At NT Australian Tourism Management Consultants, we are specialists in tourism strategy, 
+							destination development and visitor economy management with deep knowledge of the Northern Territory 
+							and broader Australian market. Our mission is to assist governments, regional organisations, 
+							tourism businesses and stakeholders to turn opportunities into actionable, measurable outcomes.
 						</p>
 
 						<p>
-							Therapy could help you finally make real progress by gaining insight &
-							improving coping skills. Developing a kind & compassionate mind makes
-							it easier
-							to make decisions that improve your wellbeing.
+							We understand the complexity of the tourism industry from planning and product development to governance, marketing and sustainability. With a collaborative, 
+							evidence-based approach, we deliver solutions that address your unique goals, challenges and community aspirations.
 						</p>
 					</div>
-
+<a href='#services'>
 					<button className="border-2 border-white px-10 py-3 text-xs uppercase tracking-widest">
 						Explore Our Services
 					</button>
+					</a>
 				</div>
 			</section>
 
 			{/* ================= OTHER OFFERINGS ================= */}
-			<section className="bg-[#4c9970] py-20">
+			<section
+			id='services'
+			 className="bg-[#3d7958] py-20">
 				<div className="text-center mb-12">
-					<h2 className="text-3xl font-serif text-white uppercase tracking-widest">
-						Other Offerings
-					</h2>
+					<h2 className="font-script text-5xl text-white mb-4">
+							Services We Offer
+						</h2>
 				</div>
 				<Marquee speed={15}>
 					{offerings.map((offering, index) => (
 						<div
 							key={index}
-							className="flex-shrink-0 w-80 mx-4 bg-white/10 rounded-lg shadow-lg backdrop-blur-sm overflow-hidden flex flex-col items-center p-8"
+							className="flex-shrink-0 w-80 mx-4 bg-white/10 rounded-lg shadow-lg backdrop-blur-sm overflow-hidden flex flex-col items-center p-8 relative"
 						>
-							<div className="mb-4">{offering.icon}</div>
-							<h3 className="text-xl font-serif text-white mb-2 text-center">{offering.title}</h3>
-							<p className="text-white/80 text-sm text-center">{offering.description}</p>
+							{/* Wavy profile image in the top left corner */}
+							<div className="absolute left-4 top-4 z-10" style={{ width: 72, height: 72 }}>
+								<svg width="72" height="72" viewBox="0 0 100 100" className="drop-shadow-xl">
+									<defs>
+										<clipPath id={`wavyClip-offering-${index}`}>
+											<path d="M50,2 C55,2 60,8 65,8 C70,8 75,2 80,5 C85,8 85,15 88,20 C91,25 98,28 98,35 C98,42 92,45 92,50 C92,55 98,58 98,65 C98,72 91,75 88,80 C85,85 85,92 80,95 C75,98 70,92 65,92 C60,92 55,98 50,98 C45,98 40,92 35,92 C30,92 25,98 20,95 C15,92 15,85 12,80 C9,75 2,72 2,65 C2,58 8,55 8,50 C8,45 2,42 2,35 C2,28 9,25 12,20 C15,15 15,8 20,5 C25,2 30,8 35,8 C40,8 45,2 50,2 Z" />
+										</clipPath>
+									</defs>
+									{/* Outer wavy border */}
+									<path
+										d="M50,2 C55,2 60,8 65,8 C70,8 75,2 80,5 C85,8 85,15 88,20 C91,25 98,28 98,35 C98,42 92,45 92,50 C92,55 98,58 98,65 C98,72 91,75 88,80 C85,85 85,92 80,95 C75,98 70,92 65,92 C60,92 55,98 50,98 C45,98 40,92 35,92 C30,92 25,98 20,95 C15,92 15,85 12,80 C9,75 2,72 2,65 C2,58 8,55 8,50 C8,45 2,42 2,35 C2,28 9,25 12,20 C15,15 15,8 20,5 C25,2 30,8 35,8 C40,8 45,2 50,2 Z"
+										fill="#c7eedd"
+									/>
+									{/* Inner image (replace src as needed) */}
+									<image
+										href={offering.img}
+										x="8" y="8" width="84" height="84"
+										clipPath={`url(#wavyClip-offering-${index})`}
+										preserveAspectRatio="xMidYMid slice"
+										style={{ transform: 'scale(0.8)', transformOrigin: 'center' }}
+									/>
+								</svg>
+							</div>
+							{/* Card content with gap from image */}
+							<div className="flex flex-col items-center" style={{ marginTop: 56 }}>
+								<h3 className="text-xl font-serif text-white mb-2 text-center">{offering.title}</h3>
+								<p className="text-white/80 text-sm text-center">{offering.description}</p>
+							</div>
 						</div>
 					))}
 				</Marquee>
@@ -269,20 +322,20 @@ const HomePage = () => {
 			{/* ================= INTRODUCTION ================= */}
 			<section className="bg-white py-24 px-4 relative overflow-hidden">
 				{/* Decorative background */}
-				<div className="absolute top-0 left-0 w-1/4 h-full z-0">
+				{/* <div className="absolute top-0 left-0 w-1/4 h-full z-0">
 					<img
 						src="/images/chantal-bg.jpg"
 						alt=""
 						className="w-full h-full object-cover opacity-20"
 					/>
-				</div>
+				</div> */}
 
 				<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center relative z-10">
 					{/* Image */}
-					<div className="relative w-[380px] mx-auto">
+					<div className="relative w-full mx-auto">
 						<div className="relative bg-white p-2 shadow-2xl">
 							<img
-								src="/images/chantal.jpg"
+								src="/images/partner.jpeg"
 								alt="Chantal"
 								className="w-full h-[460px] object-cover"
 							/>
@@ -293,29 +346,24 @@ const HomePage = () => {
 					{/* Text */}
 					<div className="text-center md:text-left">
 						<h2 className="font-script text-5xl text-[#2d4a3e]/70 mb-4">
-							Hi! I'm Chantal
+							Why Partner With Us
 						</h2>
-						<p className="text-xs text-[#2d4a3e] uppercase tracking-widest mb-6">
+						{/* <p className="text-xs text-[#2d4a3e] uppercase tracking-widest mb-6">
 							I'm a Psychotherapist in Ottawa, Ontario
-						</p>
+						</p> */}
 						<div className="text-sm text-gray-600 space-y-4 leading-relaxed">
 							<p>
-								I use a holistic approach to help clients of various age, culture, and
-								spirituality/religion overcome anxiety, depression, personality
-								disorders,
-								interpersonal issues, burnout, and work-related stress.
+								We bring a deep understanding of the Australian tourism landscape, supported by strategic insight, analytical capability and practical advisory experience. Our approach is evidence-based and outcomes-focused, ensuring that every recommendation is grounded in data, market realities and stakeholder needs.
 							</p>
 							<p>
-								If you've been thinking about starting therapy but that first step feels
-								too
-								scary... I get it! Let's start with a free 15-mins consultation to see
-								if
-								we are a good fit, no strings attached.
+								We work collaboratively with clients to deliver tailored solutions rather than generic frameworks. By combining local knowledge, transparent processes and a strong commitment to sustainable and responsible tourism, we help organisations build resilience, strengthen performance and achieve long-term value.
 							</p>
 						</div>
+						<a href="#approach">	
 						<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-							More About My Approach
+							More About Our Approach
 						</button>
+						</a>
 					</div>
 				</div>
 			</section>
@@ -323,44 +371,40 @@ const HomePage = () => {
 			{/* ================= PSYCHOTHERAPY ================= */}
 			<section className="bg-white pb-24 px-4 relative overflow-hidden">
 				{/* Decorative background */}
-				<div className="absolute top-0 right-0 w-1/4 h-full z-0">
+				{/* <div className="absolute top-0 right-0 w-1/4 h-full z-0">
 					<img
 						src="/images/psychotherapy-bg.jpg"
 						alt=""
 						className="w-full h-full object-cover opacity-20"
 					/>
-				</div>
+				</div> */}
 
 				<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center relative z-10">
 					{/* Text */}
 					<div className="text-center md:text-left">
-						<h2 className="text-3xl font-serif text-[#2d4a3e] uppercase tracking-wider mb-6">
-							Individual Psychotherapy
+						<h2 className="font-script text-5xl text-[#2d4a3e]/70 mb-4">
+							Industry Insight & Thought Leadership
 						</h2>
 						<div className="text-sm text-gray-600 space-y-4 leading-relaxed">
 							<p>
-								Therapy is a collaborative process between you and I. It’s a warm and
-								compassionate space in which you can receive support and guidance as you
-								move through life’s journey.
+								We actively monitor trends, policy changes and emerging challenges shaping Australia’s visitor economy. By combining industry research with practical consulting experience, we provide clients with forward-looking insights that support informed decision-making and strategic positioning.
 							</p>
 							<p>
-								Through effective communication and evidence-based techniques, therapy
-								aims
-								to promote personal growth, improve mental well-being, and enhance
-								overall
-								quality of life.
+								Our advisory work reflects an understanding of evolving visitor expectations, digital transformation and sustainability requirements. This ensures our clients remain competitive, adaptable and aligned with best practice across the tourism sector.
 							</p>
 						</div>
+						<a href="#contact">	
 						<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-							Learn More
+							Contact Us
 						</button>
+						</a>
 					</div>
 
 					{/* Image */}
-					<div className="relative w-[380px] mx-auto">
+					<div className="relative w-full mx-auto">
 						<div className="relative bg-white p-2 shadow-2xl">
 							<img
-								src="/images/psychotherapy.jpg"
+								src="/images/partner2.jpeg"
 								alt="Psychotherapy"
 								className="w-full h-[300px] object-cover"
 							/>
@@ -370,17 +414,18 @@ const HomePage = () => {
 				</div>
 			</section>
 			{/* ================= VIDEO SHOWCASE ================= */}
-			<section className="bg-[#4c9970] py-24 px-4 relative overflow-hidden">
+			<section 
+			id='approach'
+			className="bg-[#4c9970] py-24 px-4 relative overflow-hidden">
 				<div className="max-w-7xl mx-auto">
 					{/* Heading */}
 					<div className="text-center mb-16 relative">
-						<h2 className="text-4xl md:text-5xl font-bold text-[#2d4a3e] mb-4">
-							Engage Audiences<br />with Stunning Videos
+						<h2 className="font-script text-5xl text-white mb-4">
+							Our Approach
 						</h2>
-						<p className="text-sm text-gray-700 max-w-2xl mx-auto leading-relaxed">
-							Boost Your Brand with High-Impact Short Videos from our expert content creators.
-							Our team is ready to propel your business forward
-						</p>
+						{/* <p className="text-sm text-gray-700 max-w-2xl mx-auto leading-relaxed">
+							Structured. Transparent. Effective.
+						</p> */}
 
 						
 					</div>
@@ -390,36 +435,36 @@ const HomePage = () => {
 						{[
 							{
 								img: '/images/approach1.jpeg',
-								title: 'Nature Retreats',
-								desc: 'Experience the tranquility of nature with our immersive retreat videos.',
+								title: 'Discovery & Diagnostic',
+								desc: 'We analyse your organisational context, data and objectives to understand key challenges and opportunities.',
 								rotation: '-rotate-6',
 								offset: 'mb-12',
 							},
 							{
 								img: '/images/approach2.jpeg',
-								title: 'Adventure Highlights',
-								desc: 'Dive into thrilling adventures and explore new destinations.',
+								title: 'Strategic Framework Development',
+								desc: 'We develop tailored strategies that align market demand, policy settings and operational capability. ',
 								rotation: 'rotate-3',
 								offset: 'mb-4',
 							},
 							{
 								img: '/images/approach3.jpeg',
-								title: 'Cultural Experiences',
-								desc: 'Immerse yourself in diverse cultures through vibrant storytelling.',
+								title: 'Implementation Support',
+								desc: 'We guide the execution of strategies by defining priorities, partnerships and performance measures. ',
 								rotation: '-rotate-2',
 								offset: 'mb-20',
 							},
 							{
 								img: '/images/approach4.jpeg',
-								title: 'Wellness Journeys',
-								desc: 'Follow inspiring wellness journeys and learn practical tips.',
+								title: 'Review & Adaptation',
+								desc: 'We monitor outcomes and assess performance to ensure strategies remain relevant and effective. ',
 								rotation: 'rotate-4',
 								offset: 'mb-8',
 							},
 							{
 								img: '/images/approach5.jpeg',
-								title: 'Expert Interviews',
-								desc: 'Gain insights from industry experts in engaging video interviews.',
+								title: 'Stakeholder Engagement',
+								desc: 'We work closely with government, industry and community stakeholders to ensure shared understanding ',
 								rotation: '-rotate-3',
 								offset: 'mb-16',
 							},
@@ -427,22 +472,29 @@ const HomePage = () => {
 						].map((card, idx) => (
 							<div
 								key={idx}
-								className={`transform ${card.rotation} ${card.offset} transition-all hover:scale-105 hover:rotate-0 cursor-pointer`}
+								className={`flex flex-col items-center transform ${card.rotation} ${card.offset} transition-all hover:scale-105 hover:rotate-0 cursor-pointer relative`}
 							>
-								<div className="bg-white rounded-3xl shadow-2xl overflow-hidden w-56 h-80 border-4 border-white flex flex-col">
+								<div className="bg-[#2d4a3e] rounded-3xl shadow-2xl overflow-hidden w-56 h-80 border-4 border-white flex flex-col">
 									<img
 										src={card.img}
 										alt={card.title}
 										className="w-full h-2/4 object-cover"
 									/>
-									<div className="p-4 flex-1 flex flex-col justify-between">
-										<h3 className="text-lg font-bold text-[#2d4a3e] mb-2">
-											{card.title}
-										</h3>
-										<p className="text-sm text-gray-700 leading-relaxed">
+									<div className="p-4 flex-1 flex flex-col justify-center items-center text-center gap-2">
+										<p className="text-sm text-white leading-relaxed">
 											{card.desc}
 										</p>
 									</div>
+								</div>
+								{/* Arrow and title outside the card */}
+								<div className="mt-4 flex flex-col items-center">
+									<svg width="80" height="60" viewBox="0 0 80 60" fill="none" className="text-white rotate-12">
+										<path d="M10 5 Q 40 30, 35 55" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+										<path d="M32 50 L 35 55 L 40 52" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+									</svg>
+									<span className="block text-base text-white font-handwriting mt-2 text-center w-40">
+										{card.title}
+									</span>
 								</div>
 							</div>
 						))}
@@ -451,9 +503,11 @@ const HomePage = () => {
 
 					{/* CTA Button */}
 					<div className="text-center mt-16 relative">
+						<a href="#services">	
 						<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-							More About My Approach
+							Explore Our Services
 						</button>
+						</a>
 
 						{/* Arrow pointing to button */}
 						{/* <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 rotate-12">
@@ -471,6 +525,7 @@ const HomePage = () => {
 
 			{/* ================= REVIEWS ================= */}
 			<section
+			id='reviews'
 				className="py-24 px-4 bg-cover bg-center bg-no-repeat relative min-h-[800px]"
 				style={{ backgroundImage: "url('/images/review.png')" }}
 			>
@@ -574,7 +629,9 @@ const HomePage = () => {
 			</section>
 
 			{/* ================= FAQ & CONTACT ================= */}
-			<section className="bg-[#3d7958] py-24 px-4">
+			<section
+			id='contact'
+			 className="bg-[#3d7958] py-24 px-4">
 				<div className="max-w-7xl mx-auto">
 					<div className="grid lg:grid-cols-2 gap-16">
 						{/* Left Side - Promo & Contact */}
@@ -625,9 +682,11 @@ const HomePage = () => {
 											</li>
 										</ul>
 										<div className="text-center mt-6">
+											<a href="#services">
 											<button className="border-2 border-white px-10 py-3 text-xs uppercase tracking-widest">
 												Explore Our Services
 											</button>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -695,15 +754,15 @@ const HomePage = () => {
 								</div>
 								<div>
 									<h3 className="font-serif text-xl leading-none">
-										CUP <span className="italic font-light">of</span> TEA
+										NT <span className="italic font-light">Australian</span> Tourism
 									</h3>
 									<p className="text-white/60 text-[8px] uppercase tracking-[0.4em] mt-1">
-										Psychotherapy
+										Consultants
 									</p>
 								</div>
 							</div>
 							<p className="text-white/70 text-sm leading-relaxed">
-								Nourishing minds, bodies, and souls through compassionate therapy and holistic wellness.
+								Coordinate regional tourism development.
 							</p>
 						</div>
 
@@ -713,7 +772,7 @@ const HomePage = () => {
 							<ul className="space-y-3">
 								<li><a href="#about" className="text-white/70 hover:text-white text-sm transition-colors">About Us</a></li>
 								<li><a href="#services" className="text-white/70 hover:text-white text-sm transition-colors">Services</a></li>
-								<li><a href="#blog" className="text-white/70 hover:text-white text-sm transition-colors">Blog</a></li>
+								<li><a href="#reviews" className="text-white/70 hover:text-white text-sm transition-colors">Reviews</a></li>
 								<li><a href="#contact" className="text-white/70 hover:text-white text-sm transition-colors">Contact</a></li>
 							</ul>
 						</div>
@@ -722,10 +781,11 @@ const HomePage = () => {
 						<div>
 							<h4 className="text-sm uppercase tracking-widest mb-6">Services</h4>
 							<ul className="space-y-3">
-								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Individual Therapy</a></li>
-								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Group Sessions</a></li>
-								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Wellness Programs</a></li>
-								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Consultations</a></li>
+								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Tourism Strategy & Planning</a></li>
+								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Destination Management</a></li>
+								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Market Research & Insights</a></li>
+								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Training & Capacity Building</a></li>
+								
 							</ul>
 						</div>
 
@@ -738,7 +798,7 @@ const HomePage = () => {
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 									</svg>
-									<span>123 Wellness Street<br />Ottawa, Ontario, Canada</span>
+									<span>123 Wellness Street<br />Australia</span>
 								</li>
 								<li className="flex items-center gap-3">
 									<svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -781,8 +841,8 @@ const HomePage = () => {
 								© 2026 Cup of Tea Psychotherapy. All rights reserved.
 							</p>
 							<div className="flex gap-6">
-								<a href="#" className="text-white/50 hover:text-white text-sm transition-colors">Privacy Policy</a>
-								<a href="#" className="text-white/50 hover:text-white text-sm transition-colors">Terms of Service</a>
+								<a href="#privacy" className="text-white/50 hover:text-white text-sm transition-colors">Privacy Policy</a>
+								<a href="#terms" className="text-white/50 hover:text-white text-sm transition-colors">Terms of Service</a>
 							</div>
 						</div>
 					</div>
