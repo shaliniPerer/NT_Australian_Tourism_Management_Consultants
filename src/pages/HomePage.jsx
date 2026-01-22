@@ -195,8 +195,8 @@ const HomePage = () => {
 				</div>
 				{/* Centered content */}
 				<div className="relative w-full flex flex-col items-center justify-center min-h-[560px] z-10 text-center">
-					<span className="font-script text-4xl md:text-8xl text-white font-semibold mb-4">welcome</span>
-					<h1 className="text-9xl md:text-[34px] font-serif text-white font-extrabold leading-snug mb-12 uppercase tracking-wide">
+					<span className="font-script text-7xl text-white font-semibold mb-4">welcome</span>
+					<h1 className="text-[34px] font-serif text-white font-extrabold leading-snug mb-12 uppercase tracking-wide">
 						NT Australian Tourism Management Consultants
 					</h1>
 					<a href="#services">
