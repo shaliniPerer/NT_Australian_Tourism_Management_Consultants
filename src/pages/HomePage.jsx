@@ -4,7 +4,7 @@ import Marquee from '../components/Marquee';
 const offerings = [
 	{
 		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 4v4l3 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
+			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 4v4l3 3" strokeLinecap="round" strokeLinejoin="round" /></svg>
 		),
 		img: '/images/service2.jpeg',
 		title: 'Strategic Tourism Planning',
@@ -12,7 +12,7 @@ const offerings = [
 	},
 	{
 		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M16 3.13a4 4 0 010 7.75M8 3.13a4 4 0 000 7.75" strokeLinecap="round" strokeLinejoin="round"/></svg>
+			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M16 3.13a4 4 0 010 7.75M8 3.13a4 4 0 000 7.75" strokeLinecap="round" strokeLinejoin="round" /></svg>
 		),
 		img: '/images/service6.jpeg',
 		title: 'Destination Management & Activation',
@@ -20,7 +20,7 @@ const offerings = [
 	},
 	{
 		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 8c-1.1 0-2 .9-2 2v4a2 2 0 002 2c1.1 0 2-.9 2-2v-4a2 2 0 00-2-2zm0 0V6m0 8v2m6-6a6 6 0 11-12 0 6 6 0 0112 0z" strokeLinecap="round" strokeLinejoin="round"/></svg>
+			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M12 8c-1.1 0-2 .9-2 2v4a2 2 0 002 2c1.1 0 2-.9 2-2v-4a2 2 0 00-2-2zm0 0V6m0 8v2m6-6a6 6 0 11-12 0 6 6 0 0112 0z" strokeLinecap="round" strokeLinejoin="round" /></svg>
 		),
 		img: '/images/service3.jpeg',
 		title: 'Market Research & Insights',
@@ -28,7 +28,7 @@ const offerings = [
 	},
 	{
 		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" strokeLinecap="round" strokeLinejoin="round"/></svg>
+			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" strokeLinecap="round" strokeLinejoin="round" /></svg>
 		),
 		img: '/images/service4.jpeg',
 		title: 'Business Case Development & Feasibility Studies',
@@ -36,7 +36,7 @@ const offerings = [
 	},
 	{
 		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4" strokeLinecap="round" strokeLinejoin="round"/></svg>
+			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M8 12l2 2 4-4" strokeLinecap="round" strokeLinejoin="round" /></svg>
 		),
 		img: '/images/service5.jpeg',
 		title: 'Governance, Policy & Compliance Support',
@@ -44,7 +44,7 @@ const offerings = [
 	},
 	{
 		icon: (
-			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M16 3v4M8 3v4M3 9h18" strokeLinecap="round" strokeLinejoin="round"/></svg>
+			<svg className="w-10 h-10 text-[#2d4a3e] mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M16 3v4M8 3v4M3 9h18" strokeLinecap="round" strokeLinejoin="round" /></svg>
 		),
 		img: '/images/service1.jpeg',
 		title: 'Capacity Building & Training',
@@ -82,6 +82,7 @@ const HomePage = () => {
 
 	return (
 		<div className="min-h-screen bg-white font-sans selection:bg-emerald-100">
+
 			{/* ================= NAVBAR ================= */}
 			<nav className="bg-white border-b border-gray-50 sticky top-0 z-50">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -178,62 +179,31 @@ const HomePage = () => {
 			</nav>
 
 			{/* ================= HERO ================= */}
+
+
 			<section
-			id='Home'
-			 className="relative bg-[#f4f5f2] overflow-hidden min-h-[560px]">
-				{/* Background image — with padding */}
-				<div className="absolute inset-y-0 left-0 w-[460px] z-0 md:pl-12">
+				id='Home'
+				className="relative min-h-[560px] flex items-center justify-center">
+				{/* Background image with opacity */}
+				<div className="absolute inset-0 w-full h-full z-0">
 					<img
-						src="/images/hero.png"
-						alt="Background"
-						className="w-full h-full object-cover opacity-25"
+						src="/images/bg.jpeg"
+						alt="Hero Background"
+						className="w-full h-full object-cover opacity-80"
+						style={{width: '100%', height: '100%', display: 'block'}}
 					/>
 				</div>
-
-				{/* Content container */}
-				<div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-					<div className="grid md:grid-cols-2 items-center min-h-[560px]">
-						{/* LEFT : Foreground image */}
-						<div className="relative hidden md:block h-full">
-							{/* HALF sticking out */}
-							<div className="absolute top-1/2 left-[100px] -translate-y-1/2 w-[420px] ">
-								<div className="relative bg-white p-2 shadow-2xl">
-									<img
-										src="/images/one.jpeg"
-										alt="Tea moment"
-										className="w-full h-[240px] object-cover"
-									/>
-									<div className="absolute -bottom-2 -right-2 w-full h-full border border-gray-300"></div>
-								</div>
-							</div>
-						</div>
-
-						{/* RIGHT : Text */}
-						<div className="py-20 md:py-24 text-center md:text-left md:pl-8 relative flex flex-col md:items-start items-center justify-center h-full">
-														<span
-																className="hidden md:inline font-script text-4xl text-[#2d4a3e]/70 mb-2 md:text-6xl md:mb-0"
-																style={{
-																	position: 'absolute',
-																	top: '32%',
-																	left: '-10%',
-																	transform: 'translate(-50%, -50%) rotate(-13deg)',
-																	zIndex: 10,
-																	whiteSpace: 'nowrap',
-																	pointerEvents: 'none',
-																}}
-														>
-																welcome
-														</span>
-							<h1 className="text-3xl md:text-[34px] font-serif text-[#2d4a3e] leading-snug mb-6 uppercase tracking-wide z-10">
-								NT Australian Tourism Management Consultants
-							</h1>
-							<a href="#services" >
-							<button className="bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em] z-10">
-								Explore Our Services
-							</button>
-							</a>
-						</div>
-					</div>
+				{/* Centered content */}
+				<div className="relative w-full flex flex-col items-center justify-center min-h-[560px] z-10 text-center">
+					<span className="font-script text-4xl md:text-8xl text-white font-semibold mb-4">welcome</span>
+					<h1 className="text-9xl md:text-[34px] font-serif text-white font-extrabold leading-snug mb-12 uppercase tracking-wide">
+						NT Australian Tourism Management Consultants
+					</h1>
+					<a href="#services">
+						<button className="bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-4 text-[12px] uppercase tracking-[0.30em]">
+							Explore Our Services
+						</button>
+					</a>
 				</div>
 			</section>
 
@@ -243,42 +213,38 @@ const HomePage = () => {
 				className="relative py-20 px-4 bg-gradient-to-b from-[#2d4a3e] via-[#3d7958] to-[#4c9970]"
 			>
 				<div className="max-w-3xl mx-auto text-center text-white">
-						<h2 className="font-script text-5xl text-white mb-4">
-							About Us
-						</h2>
-					<h2 className="text-2xl md:text-3xl font-serif mb-8 uppercase tracking-widest">
+					<h2 className="text-5xl font-serif text-white mb-2 tracking-widest">ABOUT US</h2>
+					<h2 className="text-2xl md:text-3xl font-script mb-8  tracking-widest">
 						Local Insight, Strategic Expertise
 					</h2>
 
 					<div className="space-y-6 text-sm leading-relaxed mb-10">
 						<p>
-							At NT Australian Tourism Management Consultants, we are specialists in tourism strategy, 
-							destination development and visitor economy management with deep knowledge of the Northern Territory 
-							and broader Australian market. Our mission is to assist governments, regional organisations, 
+							At NT Australian Tourism Management Consultants, we are specialists in tourism strategy,
+							destination development and visitor economy management with deep knowledge of the Northern Territory
+							and broader Australian market. Our mission is to assist governments, regional organisations,
 							tourism businesses and stakeholders to turn opportunities into actionable, measurable outcomes.
 						</p>
 
 						<p>
-							We understand the complexity of the tourism industry from planning and product development to governance, marketing and sustainability. With a collaborative, 
+							We understand the complexity of the tourism industry from planning and product development to governance, marketing and sustainability. With a collaborative,
 							evidence-based approach, we deliver solutions that address your unique goals, challenges and community aspirations.
 						</p>
 					</div>
-<a href='#services'>
-					<button className="border-2 border-white px-10 py-3 text-xs uppercase tracking-widest">
-						Explore Our Services
-					</button>
+					<a href='#services'>
+						<button className="border-2 border-white px-10 py-3 text-xs uppercase tracking-widest">
+							Explore Our Services
+						</button>
 					</a>
 				</div>
 			</section>
 
-			{/* ================= OTHER OFFERINGS ================= */}
+			{/* ================= Services ================= */}
 			<section
-			id='services'
-			 className="bg-[#3d7958] py-20">
+				id='services'
+				className="bg-[#3d7958] py-20">
 				<div className="text-center mb-12">
-					<h2 className="font-script text-5xl text-white mb-4">
-							Services We Offer
-						</h2>
+					<h2 className="text-5xl font-serif text-white mb-2 tracking-widest">SERVICES</h2>
 				</div>
 				<Marquee speed={15}>
 					{offerings.map((offering, index) => (
@@ -345,7 +311,7 @@ const HomePage = () => {
 
 					{/* Text */}
 					<div className="text-center md:text-left">
-						<h2 className="font-script text-5xl text-[#2d4a3e]/70 mb-4">
+						<h2 className="font-sherif text-5xl text-[#2d4a3e]/70 mb-4">
 							Why Partner With Us
 						</h2>
 						{/* <p className="text-xs text-[#2d4a3e] uppercase tracking-widest mb-6">
@@ -359,10 +325,10 @@ const HomePage = () => {
 								We work collaboratively with clients to deliver tailored solutions rather than generic frameworks. By combining local knowledge, transparent processes and a strong commitment to sustainable and responsible tourism, we help organisations build resilience, strengthen performance and achieve long-term value.
 							</p>
 						</div>
-						<a href="#approach">	
-						<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-							More About Our Approach
-						</button>
+						<a href="#approach">
+							<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
+								More About Our Approach
+							</button>
 						</a>
 					</div>
 				</div>
@@ -382,7 +348,7 @@ const HomePage = () => {
 				<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center relative z-10">
 					{/* Text */}
 					<div className="text-center md:text-left">
-						<h2 className="font-script text-5xl text-[#2d4a3e]/70 mb-4">
+						<h2 className="font-sherif text-5xl text-[#2d4a3e]/70 mb-4">
 							Industry Insight & Thought Leadership
 						</h2>
 						<div className="text-sm text-gray-600 space-y-4 leading-relaxed">
@@ -393,10 +359,10 @@ const HomePage = () => {
 								Our advisory work reflects an understanding of evolving visitor expectations, digital transformation and sustainability requirements. This ensures our clients remain competitive, adaptable and aligned with best practice across the tourism sector.
 							</p>
 						</div>
-						<a href="#contact">	
-						<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-							Contact Us
-						</button>
+						<a href="#contact">
+							<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
+								Contact Us
+							</button>
 						</a>
 					</div>
 
@@ -413,21 +379,21 @@ const HomePage = () => {
 					</div>
 				</div>
 			</section>
-			{/* ================= VIDEO SHOWCASE ================= */}
-			<section 
-			id='approach'
-			className="bg-[#4c9970] py-24 px-4 relative overflow-hidden">
+			{/* ================= Approach ================= */}
+			<section
+				id='approach'
+				className="bg-[#4c9970] py-24 px-4 relative overflow-hidden">
 				<div className="max-w-7xl mx-auto">
 					{/* Heading */}
 					<div className="text-center mb-16 relative">
-						<h2 className="font-script text-5xl text-white mb-4">
+						<h2 className="font-serif text-5xl text-white mb-4">
 							Our Approach
 						</h2>
 						{/* <p className="text-sm text-gray-700 max-w-2xl mx-auto leading-relaxed">
 							Structured. Transparent. Effective.
 						</p> */}
 
-						
+
 					</div>
 
 					{/* Cards Container - Phone-style vertical cards */}
@@ -468,7 +434,7 @@ const HomePage = () => {
 								rotation: '-rotate-3',
 								offset: 'mb-16',
 							},
-							
+
 						].map((card, idx) => (
 							<div
 								key={idx}
@@ -489,8 +455,8 @@ const HomePage = () => {
 								{/* Arrow and title outside the card */}
 								<div className="mt-4 flex flex-col items-center">
 									<svg width="80" height="60" viewBox="0 0 80 60" fill="none" className="text-white rotate-12">
-										<path d="M10 5 Q 40 30, 35 55" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-										<path d="M32 50 L 35 55 L 40 52" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+										<path d="M10 5 Q 40 30, 35 55" stroke="currentColor" strokeWidth="1.5" fill="none" />
+										<path d="M32 50 L 35 55 L 40 52" stroke="currentColor" strokeWidth="1.5" fill="none" />
 									</svg>
 									<span className="block text-base text-white font-handwriting mt-2 text-center w-40">
 										{card.title}
@@ -503,10 +469,10 @@ const HomePage = () => {
 
 					{/* CTA Button */}
 					<div className="text-center mt-16 relative">
-						<a href="#services">	
-						<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
-							Explore Our Services
-						</button>
+						<a href="#services">
+							<button className="mt-8 bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-3 text-[10px] uppercase tracking-[0.25em]">
+								Explore Our Services
+							</button>
 						</a>
 
 						{/* Arrow pointing to button */}
@@ -525,14 +491,14 @@ const HomePage = () => {
 
 			{/* ================= REVIEWS ================= */}
 			<section
-			id='reviews'
+				id='reviews'
 				className="py-24 px-4 bg-cover bg-center bg-no-repeat relative min-h-[800px]"
 				style={{ backgroundImage: "url('/images/review.png')" }}
 			>
 				<div className="absolute inset-0 bg-black/50"></div>
 				<div className="max-w-4xl mx-auto text-center relative z-10">
 					<h2 className="text-5xl font-serif text-white mb-2 tracking-widest">REVIEWS</h2>
-					<p className="text-2xl font-script text-white/80 mb-16">From our clients</p>
+					<p className="text-3xl font-script text-white/80 mb-16">From our clients</p>
 
 					<div className="space-y-2 relative">
 						{[
@@ -630,8 +596,8 @@ const HomePage = () => {
 
 			{/* ================= FAQ & CONTACT ================= */}
 			<section
-			id='contact'
-			 className="bg-[#3d7958] py-24 px-4">
+				id='contact'
+				className="bg-[#3d7958] py-24 px-4">
 				<div className="max-w-7xl mx-auto">
 					<div className="grid lg:grid-cols-2 gap-16">
 						{/* Left Side - Promo & Contact */}
@@ -683,9 +649,9 @@ const HomePage = () => {
 										</ul>
 										<div className="text-center mt-6">
 											<a href="#services">
-											<button className="border-2 border-white px-10 py-3 text-xs uppercase tracking-widest">
-												Explore Our Services
-											</button>
+												<button className="border-2 border-white px-10 py-3 text-xs uppercase tracking-widest">
+													Explore Our Services
+												</button>
 											</a>
 										</div>
 									</div>
@@ -785,7 +751,7 @@ const HomePage = () => {
 								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Destination Management</a></li>
 								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Market Research & Insights</a></li>
 								<li><a href="#" className="text-white/70 hover:text-white text-sm transition-colors">Training & Capacity Building</a></li>
-								
+
 							</ul>
 						</div>
 
