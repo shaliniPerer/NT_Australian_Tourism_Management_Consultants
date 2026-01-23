@@ -184,20 +184,26 @@ const HomePage = () => {
 			<section
 				id='Home'
 				className="relative min-h-[560px] flex items-center justify-center">
-				{/* Background image with opacity */}
-				<div className="absolute inset-0 w-full h-full z-0">
-					<img
-						src="/images/bg.jpeg"
-						alt="Hero Background"
-						className="w-full h-full object-cover opacity-80"
-						style={{width: '100%', height: '100%', display: 'block'}}
-					/>
-				</div>
+				   {/* Background video with opacity */}
+				   <div className="absolute inset-0 w-full h-full z-0">
+					   <video
+						   autoPlay
+						   loop
+						   muted
+						   playsInline
+						   className="w-full h-full object-cover opacity-80"
+						   style={{width: '100%', height: '100%', display: 'block'}}
+					   >
+						   <source src="/vedioes/hero.mp4" type="video/mp4" />
+						   Your browser does not support the video tag.
+					   </video>
+				   </div>
 				{/* Centered content */}
 				<div className="relative w-full flex flex-col items-center justify-center min-h-[560px] z-10 text-center">
 					<span className="font-script text-7xl text-white font-semibold mb-4">welcome</span>
-					<h1 className="text-[34px] font-serif text-white font-extrabold leading-snug mb-12 uppercase tracking-wide">
-						NT Australian Tourism Management Consultants
+					<h1 className="text-[22px] font-serif text-[#f2f7f5] font-extrabold leading-snug mb-12 uppercase tracking-wide">
+						NT Australian Tourism Management 
+						Consultants
 					</h1>
 					<a href="#services">
 						<button className="bg-[#8fa49b] hover:bg-[#7d9289] transition-colors text-white px-10 py-4 text-[12px] uppercase tracking-[0.30em]">
