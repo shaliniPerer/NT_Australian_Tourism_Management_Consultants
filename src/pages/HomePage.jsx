@@ -88,17 +88,7 @@ const HomePage = () => {
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex justify-between items-center h-20">
 						<div className="flex items-center gap-3">
-							<div className="w-10 h-10 bg-emerald-50 rounded-full flex items-center justify-center">
-								<span className="text-2xl">🌱</span>
-							</div>
-							<div>
-								<h1 className="text-[#2d4a3e] font-serif text-xl leading-none">
-									NT <span className="italic font-light">Australian</span> Tourism
-								</h1>
-								<p className="text-[#2d4a3e]/60 text-[8px] uppercase tracking-[0.4em] mt-1">
-									Consultants
-								</p>
-							</div>
+							<img src="/images/Logo-4-removebg-preview.png" alt="NT Australian Tourism Consultants" className="h-28 w-auto object-contain" />
 						</div>
 
 						<div className="hidden md:flex items-center gap-8">
@@ -720,20 +710,10 @@ const HomePage = () => {
 					<div className="grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left items-center md:items-start justify-center">
 						{/* Brand */}
 						<div className="md:col-span-1 flex flex-col items-center md:items-start">
-							<div className="flex items-center gap-3 mb-6">
-								<div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
-									<span className="text-2xl">🌱</span>
-								</div>
-								<div className="flex flex-col items-center md:items-start">
-									<h3 className="font-serif text-xl leading-none">
-										NT <span className="italic font-light">Australian</span> Tourism
-									</h3>
-									<p className="text-white/60 text-[8px] uppercase tracking-[0.4em] mt-1">
-										Consultants
-									</p>
-								</div>
+							<div className="mb-6 inline-block">
+								<img src="/images/Logo-4-removebg-preview.png" alt="NT Australian Tourism Consultants" className="h-32 w-auto object-contain" />
 							</div>
-							<p className="text-white/70 text-sm leading-relaxed">
+							<p className="text-white/70 text-sm leading-relaxed text-center md:text-left">
 								Coordinate regional tourism development.
 							</p>
 						</div>
