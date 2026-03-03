@@ -281,6 +281,49 @@ const HomePage = () => {
 				</Marquee>
 			</section>
 
+			{/* ================= ROY SHARAN KANDEEPAN ================= */}
+			<section className="bg-[#4c9970] py-24 px-4 relative overflow-hidden">
+				<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-20 items-center relative z-10">
+					{/* Image */}
+					<div className="relative w-full mx-auto flex justify-center">
+						<div className="relative">
+							{/* Wavy/blob SVG clip for Roy's photo */}
+							<svg width="0" height="0" style={{ position: 'absolute' }}>
+								<defs>
+									<clipPath id="royWavyClip" clipPathUnits="objectBoundingBox">
+										<path d="M0.5,0.02 C0.55,0.02 0.6,0.08 0.65,0.08 C0.70,0.08 0.75,0.02 0.80,0.05 C0.85,0.08 0.85,0.15 0.88,0.20 C0.91,0.25 0.98,0.28 0.98,0.35 C0.98,0.42 0.92,0.45 0.92,0.50 C0.92,0.55 0.98,0.58 0.98,0.65 C0.98,0.72 0.91,0.75 0.88,0.80 C0.85,0.85 0.85,0.92 0.80,0.95 C0.75,0.98 0.70,0.92 0.65,0.92 C0.60,0.92 0.55,0.98 0.50,0.98 C0.45,0.98 0.40,0.92 0.35,0.92 C0.30,0.92 0.25,0.98 0.20,0.95 C0.15,0.92 0.15,0.85 0.12,0.80 C0.09,0.75 0.02,0.72 0.02,0.65 C0.02,0.58 0.08,0.55 0.08,0.50 C0.08,0.45 0.02,0.42 0.02,0.35 C0.02,0.28 0.09,0.25 0.12,0.20 C0.15,0.15 0.15,0.08 0.20,0.05 C0.25,0.02 0.30,0.08 0.35,0.08 C0.40,0.08 0.45,0.02 0.50,0.02 Z" />
+									</clipPath>
+								</defs>
+							</svg>
+							{/* Decorative backing shape */}
+							<div className="absolute -bottom-5 -right-5 w-full h-full bg-white/20 rounded-none" style={{ clipPath: 'url(#royWavyClip)' }}></div>
+							<img
+								src="/images/Roy.jpeg"
+								alt="Roy Sharan Kandeepan"
+								className="relative z-10 w-96 h-[460px] object-cover shadow-2xl"
+								style={{ clipPath: 'url(#royWavyClip)' }}
+							/>
+						</div>
+					</div>
+
+					{/* Text */}
+					<div className="text-center md:text-left">
+						<p className="text-xs text-white/70 uppercase tracking-widest mb-3 font-semibold">Meet Our Consultant</p>
+						<h2 className="font-serif text-5xl text-white mb-2 tracking-wide">Roy Sharan Kandeepan</h2>
+						<p className="text-[#c7eedd] text-base uppercase tracking-widest mb-6 font-medium">Senior Travel Consultant</p>
+						<div className="w-14 h-0.5 bg-white/50 mb-6 mx-auto md:mx-0"></div>
+						<div className="text-base text-white/85 space-y-4 leading-relaxed">
+							<p>
+								A dedicated tourism and hospitality professional with over a decade of experience in the aviation &amp; travel industry, specializing in customer service, safety, guest satisfaction and travel planning. With a strong passion for travel and cultural connection, He brings a people-focused approach to tourism management, ensuring memorable and seamless experiences for travelers.
+							</p>
+							<p>
+								Known for his professionalism, adaptability, and commitment to excellence, Roy strives to deliver high-quality service while building trust and long-term relationships within the tourism sector.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			{/* ================= INTRODUCTION ================= */}
 			<section className="bg-white py-24 px-4 relative overflow-hidden">
 				{/* Decorative background */}
@@ -297,7 +340,7 @@ const HomePage = () => {
 					<div className="relative w-full mx-auto">
 						<div className="relative bg-white p-2 shadow-2xl">
 							<img
-								src="/images/partner.jpeg"
+								src="/images/unnamed.jpg"
 								alt="Chantal"
 								className="w-full h-[460px] object-cover"
 							/>
@@ -335,7 +378,7 @@ const HomePage = () => {
 				{/* Decorative background */}
 				{/* <div className="absolute top-0 right-0 w-1/4 h-full z-0">
 					<img
-						src="/images/psychotherapy-bg.jpg"
+						src="/images/partner.jpg"
 						alt=""
 						className="w-full h-full object-cover opacity-20"
 					/>
@@ -366,7 +409,7 @@ const HomePage = () => {
 					<div className="relative w-full mx-auto">
 						<div className="relative bg-white p-2 shadow-2xl">
 							<img
-								src="/images/partner2.jpeg"
+								src="/images/partner.jpg"
 								alt="Psychotherapy"
 								className="w-full h-[300px] object-cover"
 							/>
@@ -396,35 +439,35 @@ const HomePage = () => {
 					<div className="relative flex items-end justify-center gap-8 flex-wrap px-4 min-h-[400px] max-w-full">
 						{[
 							{
-								img: '/images/approach1.jpeg',
+								img: '/images/unnamed (2).jpg',
 								title: 'Discovery & Diagnostic',
 								desc: 'We analyse your organisational context, data and objectives to understand key challenges and opportunities.',
 								rotation: '-rotate-6',
 								offset: 'mb-12',
 							},
 							{
-								img: '/images/approach2.jpeg',
+								img: '/images/unnamed (3).jpg',
 								title: 'Strategic Framework Development',
 								desc: 'We develop tailored strategies that align market demand, policy settings and operational capability. ',
 								rotation: 'rotate-3',
 								offset: 'mb-4',
 							},
 							{
-								img: '/images/approach3.jpeg',
+								img: '/images/unnamed (4).jpg',
 								title: 'Implementation Support',
 								desc: 'We guide the execution of strategies by defining priorities, partnerships and performance measures. ',
 								rotation: '-rotate-2',
 								offset: 'mb-20',
 							},
 							{
-								img: '/images/approach4.jpeg',
+								img: '/images/unnamed (5).jpg',
 								title: 'Review & Adaptation',
 								desc: 'We monitor outcomes and assess performance to ensure strategies remain relevant and effective. ',
 								rotation: 'rotate-4',
 								offset: 'mb-8',
 							},
 							{
-								img: '/images/approach5.jpeg',
+								img: '/images/unnamed (6).jpg',
 								title: 'Stakeholder Engagement',
 								desc: 'We work closely with government, industry and community stakeholders to ensure shared understanding ',
 								rotation: '-rotate-3',
